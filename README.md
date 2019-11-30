@@ -1,3 +1,2 @@
-# Kotlin study
+# Initial page
 
-#### Start the Kotlin study at Major-gc on December 1, 2019.
