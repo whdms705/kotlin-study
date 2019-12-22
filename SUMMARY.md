@@ -6,5 +6,6 @@
 * [4. 함수](chapter4.md)
 * [6. null 안전과 예외](chapter6.md)
 * [7. 문자열](chapter7.md)
+* [8. 숫자](chapter8.md)
 
 
