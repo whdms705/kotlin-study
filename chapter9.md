@@ -217,12 +217,11 @@ val fileContents = File("myfile.txt").takeUnless { it.isHidden }?.readText()
   <thead>
     <tr>
       <th style="text-align:center">&#xD568;&#xC218;</th>
-      <th style="text-align:center">&#xC218;&#xC2E0;&#xC790; &#xAC1D;&#xCCB4;&#xB97C; &#x3139;&#x314F;&#x3141;&#xB2E4;&#xC758;
-        &#xC778;&#xC790;&#xB85C; &#xC804;&#xB2EC;&#xD558;&#xB294;&#xAC00;?</th>
+      <th style="text-align:center">&#xC218;&#xC2E0;&#xC790; &#xAC1D;&#xCCB4;&#xB97C; &#xB2E4;&#xC758; &#xC778;&#xC790;&#xB85C;
+        &#xC804;&#xB2EC;&#xD558;&#xB294;&#xAC00;?</th>
+      <th style="text-align:center">&#xC5F0;&#xAD00; &#xBC94;&#xC704;&#xB97C; &#xC81C;&#xACF5;&#xD558;&#xB294;&#xAC00;?</th>
       <th
-      style="text-align:center">&#xC5F0;&#xAD00; &#xBC94;&#xC704;&#xB97C; &#xC81C;&#xACF5;&#xD558;&#xB294;&#xAC00;?</th>
-        <th
-        style="text-align:center">&#xBC18;</th>
+      style="text-align:center">&#xBC18;</th>
     </tr>
   </thead>
   <tbody>
