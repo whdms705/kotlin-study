@@ -31,8 +31,8 @@ private fun placeOrder() {
 | \r | 캐리지 리턴 \(carriage return\) |
 | \" | 큰따옴표 \(double quotation mark\) |
 | \' | 작은따옴표/아포스트로피\(single quotation mark/apostrophe\) |
-| \\ | 역슬래쉬 \(backslash\) |
-| \$ | 달러 기호 \(dollar sign\) |
+| \ | 역슬래쉬 \(backslash\) |
+| $ | 달러 기호 \(dollar sign\) |
 | \u | 유니코드 \(unicode\) 문자 |
 
 ### split 함수
@@ -51,7 +51,7 @@ private fun placeOrder(menuData: String) {
     // val (type, name, price) = menuData.split(',')
     val message = "마드리갈은 금화 $price 로 $name ($type)를 구입한다."
     println(message)
-    
+
     var phrase = "와, $name 진짜 좋구나!"
     println("마드리갈이 감탄한다: ${toDragonSpeak(phrase)}")
 }
@@ -101,7 +101,7 @@ private fun placeOrder(menuData: String) {
     // val (type, name, price) = menuData.split(',')
     val message = "마드리갈은 금화 $price 로 $name ($type)를 구입한다."
     println(message)
-    
+
     val phrase = if (name == "Dragon's Breath") {
         "마드리갈이 감탄한다: ${toDragonSpeak("와, $name 진짜 좋구나!")}"
     } else {
